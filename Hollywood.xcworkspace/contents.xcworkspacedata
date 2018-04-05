@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Hollywood.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BoxOffice/BoxOffice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/proxpero/Code/Hollywood/TMDBAPI/TMDbAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Promises/Promises.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UtilityKit/UtilityKit.xcodeproj">
+   </FileRef>
+</Workspace>

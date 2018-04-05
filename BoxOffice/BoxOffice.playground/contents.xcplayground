@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
+    <pages>
+        <page name='PosterCell'/>
+        <page name='PosterImageCollectionView'/>
+        <page name='PosterListCellView'/>
+        <page name='PosterListCollectionView'/>
+        <page name='MovieDetailsViewController'/>
+        <page name='MovieDetails.HeaderCell'/>
+        <page name='Scratch'/>
+        <page name='MovieDetails.InfoCell'/>
+        <page name='PosterListCollectionViewController'/>
+    </pages>
+</playground>

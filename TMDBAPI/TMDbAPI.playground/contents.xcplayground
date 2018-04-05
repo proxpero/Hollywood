@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Movies'/>
+        <page name='Tv'/>
+        <page name='Person'/>
+        <page name='DecodeListResultObject'/>
+        <page name='UpcomingMoviesApi'/>
+        <page name='NowPlayingMoviesApi'/>
+        <page name='Images'/>
+        <page name='Scratch'/>
+    </pages>
+</playground>
