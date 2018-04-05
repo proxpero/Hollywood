@@ -10,6 +10,10 @@
 		52103A80206EB4F5001F3CBB /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52103A7F206EB4F5001F3CBB /* MovieDetails.swift */; };
 		52103A82206ED95A001F3CBB /* PosterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52103A81206ED95A001F3CBB /* PosterList.swift */; };
 		52103A85206EDA1F001F3CBB /* MovieDetails.Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52103A84206EDA1F001F3CBB /* MovieDetails.Section.swift */; };
+		52189E6E2076CF6700AC5498 /* UtilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52189E6D2076CF6700AC5498 /* UtilityKit.framework */; };
+		52189E702076CF6A00AC5498 /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52189E6F2076CF6A00AC5498 /* Promises.framework */; };
+		52189E722076CF6F00AC5498 /* TMDbAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52189E712076CF6F00AC5498 /* TMDbAPI.framework */; };
+		52189E742076CF8000AC5498 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52189E732076CF8000AC5498 /* FBLPromises.framework */; };
 		52280951206F569900C5D70A /* MovieDetails.MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52280950206F569900C5D70A /* MovieDetails.MainCell.swift */; };
 		5232E462205AE69A000CB5B7 /* Movie+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232E461205AE69A000CB5B7 /* Movie+Extensions.swift */; };
 		5247E4C220740C5100BAF604 /* MovieDetails.OverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247E4C120740C5100BAF604 /* MovieDetails.OverviewCell.swift */; };
@@ -45,6 +49,10 @@
 		52103A7F206EB4F5001F3CBB /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		52103A81206ED95A001F3CBB /* PosterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterList.swift; sourceTree = "<group>"; };
 		52103A84206EDA1F001F3CBB /* MovieDetails.Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.Section.swift; sourceTree = "<group>"; };
+		52189E6D2076CF6700AC5498 /* UtilityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52189E6F2076CF6A00AC5498 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Promises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52189E712076CF6F00AC5498 /* TMDbAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TMDbAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52189E732076CF8000AC5498 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52280950206F569900C5D70A /* MovieDetails.MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.MainCell.swift; sourceTree = "<group>"; };
 		5229808F206F2C8F00B271C8 /* MovieDetails.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MovieDetails.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5232E461205AE69A000CB5B7 /* Movie+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Extensions.swift"; sourceTree = "<group>"; };
@@ -84,6 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52189E6E2076CF6700AC5498 /* UtilityKit.framework in Frameworks */,
+				52189E742076CF8000AC5498 /* FBLPromises.framework in Frameworks */,
+				52189E702076CF6A00AC5498 /* Promises.framework in Frameworks */,
+				52189E722076CF6F00AC5498 /* TMDbAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +187,10 @@
 		52A391BB2058184F000B3A1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52189E732076CF8000AC5498 /* FBLPromises.framework */,
+				52189E712076CF6F00AC5498 /* TMDbAPI.framework */,
+				52189E6F2076CF6A00AC5498 /* Promises.framework */,
+				52189E6D2076CF6700AC5498 /* UtilityKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
