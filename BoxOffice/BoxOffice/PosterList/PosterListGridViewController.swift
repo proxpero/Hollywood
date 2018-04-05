@@ -32,7 +32,7 @@ public final class PostListGridViewController: UIViewController, UICollectionVie
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor(rgb: 0x1c212b)
-        collectionView.contentInset = UIEdgeInsets.init(top: -25, left: 15, bottom: 15, right: 15)
+        collectionView.contentInset = UIEdgeInsets.init(top: 15, left: 15, bottom: 15, right: 15)
         collectionView.register(PosterCell.self)
 
         view = collectionView
